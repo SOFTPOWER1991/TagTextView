@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="zhanggeng.www.tagviewapplication.MainActivity">
+
+
+    <zhanggeng.www.tagview.TagTextView
+        android:id="@+id/tagTv"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="我们"
+        android:textColor="@color/colorPrimary"
+        app:tagRadius="5dp"
+        app:tagStrokeColor="@color/colorPrimary"
+        app:tagStrokeWidth="1px" />
+
+    <zhanggeng.www.tagview.TagTextView
+        android:id="@+id/tagTv2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="我们"
+        android:textColor="@color/colorAccent"
+        app:tagRadius="5dp"
+        app:tagStrokeColor="@color/colorAccent"
+        app:tagStrokeWidth="10px" />
+
+    <zhanggeng.www.tagview.TagTextView
+        android:id="@+id/tagTv3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="我们"
+        android:textColor="@color/colorAccent"
+        app:tagRadius="5dp"
+        app:tagDrawable="@mipmap/ic_launcher"
+        app:tagStrokeColor="@color/colorAccent"
+        app:tagStrokeWidth="10px" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="点击下面的textview看看有什么变化"
+        android:textColor="@color/colorAccent" />
+
+    <zhanggeng.www.tagview.TagTextView
+        android:id="@+id/tvSelect1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="我们"
+        app:tagNormalSolidColor="@color/c6BBDB6"
+        app:tagPressedSolidColor="@color/cF3F4F5"
+        app:tagSelectedtagColor="@color/cFF8135"
+        app:tagNormaltagColor="@color/colorAccent"
+        app:tagStrokeWidth="1px"
+        app:tagIsSelected="true"
+        />
+
+
+</LinearLayout>
