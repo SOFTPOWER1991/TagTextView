@@ -42,7 +42,6 @@
         android:text="我们"
         android:textColor="@color/colorAccent"
         app:tagRadius="5dp"
-        app:tagDrawable="@mipmap/ic_launcher"
         app:tagStrokeColor="@color/colorAccent"
         app:tagStrokeWidth="10px" />
 
