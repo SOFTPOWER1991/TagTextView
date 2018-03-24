@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TagTextView">
+        <attr name="tagStrokeColor" format="color" />
+        <attr name="tagRadius" format="dimension" />
+        <attr name="tagLeftTopRadius" format="dimension" />
+        <attr name="tagLeftBottomRadius" format="dimension" />
+        <attr name="tagRightTopRadius" format="dimension" />
+        <attr name="tagRightBottomRadius" format="dimension" />
+        <attr name="tagStrokeWidth" format="dimension" />
+        <attr name="tagDrawable" format="reference" />
+        <attr name="tagNormaltagColor" format="color" />
+        <attr name="tagSelectedtagColor" format="color" />
+        <attr name="tagPressedSolidColor" format="color"/>
+        <attr name="tagNormalSolidColor" format="color"/>
+        <attr name="tagIsSelected" format="boolean" />
+    </declare-styleable>
+</resources>
